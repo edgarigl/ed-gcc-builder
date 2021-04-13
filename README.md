@@ -20,9 +20,9 @@ a sub directory of your own.
 
 Examples:
 ```
-make TARGET=microblaze-xilinx-elf PREFIX=$(HOME)/dev
-make TARGET=cris-axis-elf PREFIX=$(HOME)/dev
-make TARGET=riscv32-unknown-elf PREFIX=$(HOME)/dev
+make TARGET=microblaze-xilinx-elf PREFIX=${HOME}/dev
+make TARGET=cris-axis-elf PREFIX=${HOME}/dev
+make TARGET=riscv32-unknown-elf PREFIX=${HOME}/dev
 ```
 
 Run make help to see more details.
